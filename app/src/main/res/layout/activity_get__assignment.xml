@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Get_Assignment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Check Submitted Assignment"
+            android:id="@+id/toolbar_get_assignment"
+            android:background="@color/purple_200"
+            app:titleTextColor="@color/white"
+            />
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+
+            <EditText
+                android:layout_marginTop="20sp"
+                android:id="@+id/course_id_get_assignment"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:paddingLeft="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="50sp"
+                android:hint="    Course_ID"
+                android:background="@drawable/white_back"
+                />
+
+
+            <EditText
+                android:layout_marginTop="20sp"
+                android:id="@+id/assign_name_get_assignment"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:paddingLeft="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="50sp"
+                android:hint="    Assignment Name"
+                android:background="@drawable/white_back"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/check_assign_list"
+                android:background="@drawable/button"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50sp"
+                android:text="Check Assignment List"
+                android:textAllCaps="false"
+                android:textColor="#ffff"
+                android:fontFamily="@font/arbutus_slab"
+                android:textSize="15sp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycle_view_get_assignment"
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

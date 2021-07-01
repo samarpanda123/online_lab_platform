@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Student Notice Board"
+            android:id="@+id/toolbar_student_notice_board"
+            android:background="@color/purple_200"
+            app:titleTextColor="@color/white"
+            />
+
+        <!--        <LinearLayout-->
+        <!--            xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content">-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycle_view_student_notice"
+
+            />
+<!--       </LinearLayout>-->
+
+</LinearLayout>

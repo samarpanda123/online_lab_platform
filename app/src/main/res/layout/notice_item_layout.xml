@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/notice_item_layout"
+    android:background="@drawable/card_background"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:layout_gravity="start"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label1"
+            android:textSize="20dp"
+            android:text="Published by  : "
+            android:textColor="@color/black"
+            android:fontFamily="@font/arbutus_slab"
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/label2"
+            android:textSize="20dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:fontFamily="@font/arbutus_slab"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label3"
+            android:textSize="20dp"
+            android:fontFamily="@font/arbutus_slab"
+            android:text="Published for  : "
+            android:textColor="@color/black"
+            android:gravity=""
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/label4"
+            android:textSize="20dp"
+            android:fontFamily="@font/arbutus_slab"
+            android:text=""
+            android:textColor="@color/black"
+            android:gravity="start"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label5"
+            android:textSize="20dp"
+            android:fontFamily="@font/arbutus_slab"
+            android:text="Notice  : "
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/label6"
+            android:textSize="20dp"
+            android:fontFamily="@font/arbutus_slab"
+            android:text=""
+            android:textColor="@color/black"
+            android:gravity="start"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lab_project1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lab_project1">
+        <activity android:name=".Get_Assignment"></activity>
+        <activity android:name=".UpdateRequests" />
+        <activity android:name=".studentCheckNotice" />
+        <activity android:name=".Submit_assignment" />
+        <activity android:name=".Attend_lab_test" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".show_lab_marks" />
+        <activity android:name=".FacultyActivity" />
+        <activity android:name=".Getnotice" />
+        <activity android:name=".Faculty_Notice" />
+        <activity android:name=".Check_Pseudocode" />
+        <activity android:name=".Create_lab_test" />
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".Add_assignment" />
+        <activity android:name=".Forgot_passwd" />
+        <activity android:name=".Add_lab_marks" />
+        <activity android:name=".Lab_Attendence" />
+        <activity android:name=".Ask_Query" />
+        <activity android:name=".AdminActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

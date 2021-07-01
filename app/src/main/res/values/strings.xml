@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab_project1</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="naviagtion_drawer_open">Open Navigaion Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/menu_create"
+    android:icon="@drawable/ic_baseline_add_circle_24"
+    android:title="Create User"/>
+
+    <item android:id="@+id/menu_update_request"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        android:title="Update Requests"/>
+
+    <item android:id="@+id/menu_edit"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:title="Edit User details"/>
+
+    <item android:id="@+id/menu_delete"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Delete User"/>
+
+    <item android:id="@+id/menu_recover"
+        android:icon="@drawable/ic_recovery_arrow"
+        android:title="Recover User"/>
+
+    <item android:id="@+id/menu_curriculum"
+        android:icon="@drawable/ic_resume"
+        android:title="curriculum "/>
+
+
+    <item android:id="@+id/menu_publish_notice"
+        android:icon="@drawable/ic_loud_speaker"
+        android:title="Publish Notice "/>
+
+    <item android:id="@+id/Enroll"
+        android:icon="@drawable/ic_document"
+        android:title="Enroll Teacher "/>
+
+
+    <item android:id="@+id/lout_admin"
+        android:icon="@drawable/ic_baseline_power_settings_new_24"
+        android:title="Logout "/>
+</menu>

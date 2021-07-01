@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/popup_layout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Carriculum"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/carriculum_id"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:paddingLeft="10sp"
+        android:drawableLeft="@drawable/ic_profile_user"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="60sp"
+        android:hint="     Enter FileName to be upload"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/rect_box"
+        />
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

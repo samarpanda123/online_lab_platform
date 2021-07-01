@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/mnnit"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="120dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="50sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="40sp"
+                android:height="120sp"
+                android:gravity="center"
+                android:text="MNNIT Online Lab Platform"
+                android:textColor="#3F51B5"
+                android:textSize="30dp"
+                android:fontFamily="@font/arbutus_slab"
+                android:textStyle="bold" />
+
+
+
+
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:paddingLeft="10sp"
+                android:drawableLeft="@drawable/ic_profile_user"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="60sp"
+                android:hint="     Enter User Name"
+                android:background="@drawable/white_back"
+                />
+            <EditText
+                android:id="@+id/password"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="10sp"
+                android:drawableLeft="@drawable/ic_padlock"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="60sp"
+                android:hint="     Enter Passward"
+                android:background="@drawable/white_back"
+                />
+
+            <Button
+                android:id="@+id/loginbutton"
+                android:background="@drawable/button"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="70dp"
+                android:text="LogIn"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/forgotpassword"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:layout_marginBottom="20dp"
+                />
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

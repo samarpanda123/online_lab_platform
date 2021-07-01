@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/Student_update_account">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Credentials To upadte Your Details"
+        android:gravity="center"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:background="@color/purple_200"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/Student_Update_userid"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:paddingLeft="10sp"
+        android:drawableLeft="@drawable/ic_profile_user"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="60sp"
+        android:hint="     Enter User unique Id to find user"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/rect_box"
+        />
+    <EditText
+        android:id="@+id/Student_updated_details"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:paddingLeft="10sp"
+        android:drawableLeft="@drawable/ic_profile_user"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="60sp"
+        android:hint="     Enter all information You want to change"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/rect_box"
+        />
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

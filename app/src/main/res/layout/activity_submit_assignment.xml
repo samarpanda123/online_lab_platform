@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grad_ient"
+    >
+
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Submit_assignment">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Submit Lab Assignment"
+        android:id="@+id/toolbar"
+        android:background="@drawable/grad_ient"
+        app:titleTextColor="@color/white"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/submit_assign"
+            android:background="#ffff"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            />
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_back"
+        android:layout_marginTop="30sp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+
+        >
+
+        <EditText
+            android:layout_marginTop="20sp"
+            android:id="@+id/student_id"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:paddingLeft="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="50sp"
+            android:hint="    Student_ID"
+            android:background="@drawable/white_back"
+            />
+
+        <EditText
+            android:layout_marginTop="20sp"
+            android:id="@+id/course_id"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:paddingLeft="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="50sp"
+            android:hint="    Course_ID"
+            android:background="@drawable/white_back"
+            />
+
+
+
+        <EditText
+            android:layout_marginTop="20sp"
+            android:id="@+id/Assign_name"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:paddingLeft="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="50sp"
+            android:hint="    Assignment Name"
+            android:background="@drawable/white_back"
+            />
+
+        <EditText
+            android:layout_marginTop="20sp"
+            android:id="@+id/course_name"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:paddingLeft="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="50sp"
+            android:hint="    Course Name"
+            android:background="@drawable/white_back"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/notification"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:text="No file is Selectyed yet"
+            android:textSize="15sp"
+            android:height="80sp"
+            android:gravity="center"
+            android:background="@drawable/messagebox"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="60sp"
+            android:layout_marginRight="60sp"
+            android:id="@+id/select_file"
+            android:text="Select File"
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:background="@drawable/button"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="10sp"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Upload"
+                    android:textColor="#ffff"
+                    android:text="Upload"
+                    android:textSize="15sp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/button"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Remove"
+                    android:text="Remove"
+                    android:textColor="#ffff"
+                    android:textSize="15sp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/button"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit_assign"
+            android:hint="Submit Assignment"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:textSize="20sp"
+            android:textColorHint="#ffff"
+            android:textAllCaps="false"
+            android:background="@drawable/button"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+</ScrollView>

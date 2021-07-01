@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Attend_lab_test"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Lab Test"
+            android:id="@+id/toolbar"
+            android:background="@color/purple_200"
+            app:titleTextColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <EditText
+            android:layout_marginTop="20sp"
+            android:id="@+id/course_id_attend_lab_test"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:paddingLeft="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="50sp"
+            android:hint="    Course_ID"
+            android:background="@drawable/white_back"
+            />
+
+
+        <EditText
+            android:layout_marginTop="20sp"
+            android:id="@+id/course_name_attend_lab_teste"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:paddingLeft="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="50sp"
+            android:hint="    LabTest Name"
+            android:background="@drawable/white_back"
+            />
+
+        <EditText
+            android:layout_marginTop="20sp"
+            android:id="@+id/student_id_attend_lab_test"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:paddingLeft="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="50sp"
+            android:hint="    Student_Id"
+            android:background="@drawable/white_back"
+            />
+
+
+
+        <EditText
+            android:layout_marginTop="20sp"
+            android:id="@+id/student_name_attend_lab_test"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:paddingLeft="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="50sp"
+            android:hint="    Student Name"
+            android:background="@drawable/white_back"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/download_lab_qn"
+            android:background="@drawable/button"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50sp"
+            android:text="Download Lab Test questions"
+            android:textAllCaps="false"
+            android:textColor="#ffff"
+            android:fontFamily="@font/arbutus_slab"
+            android:textSize="15sp"
+
+
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/status"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:text="NotReviewed"
+            android:textSize="15sp"
+            android:height="80sp"
+            android:gravity="center"
+            android:background="@drawable/messagebox"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/notification"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:text="No file is Selectyed yet"
+            android:textSize="15sp"
+            android:height="80sp"
+            android:gravity="center"
+            android:background="@drawable/messagebox"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="60sp"
+            android:layout_marginRight="60sp"
+            android:id="@+id/select_file"
+            android:text="Select File"
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:background="@drawable/button"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="10sp"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Upload"
+                    android:text="Upload To Verify"
+                    android:textColor="#ffff"
+                    android:textSize="15sp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/button"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/status1"
+                    android:text="Check Status"
+                    android:textSize="15sp"
+                    android:textAllCaps="false"
+                    android:textColor="#ffff"
+                    android:background="@drawable/button"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
